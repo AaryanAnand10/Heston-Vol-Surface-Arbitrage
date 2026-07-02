@@ -1,0 +1,22 @@
+# Core scientific
+numpy<2
+scipy>=1.8,<1.10
+pandas>=2.0
+
+# Options pricing
+# py_vollib  # Uncomment if you can install (requires C extension)
+
+# Data
+# yfinance   # Uncomment to download live data
+
+# Visualization
+matplotlib>=3.5
+# plotly     # Uncomment for interactive 3D surfaces
+
+# Notebook
+jupyter
+nbformat
+nbconvert
+ipykernel
+
+# Run: pip install -r requirements.txt
